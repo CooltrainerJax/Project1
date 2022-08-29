@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Project 1</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div><img src="images/hamburger.png" alt="hamburger icon" height="30px" width="30px" id="clickme"> </div>
+        <div class="navlist">
+            <ul>
+                <li>Home</li>
+                <li>Book Trip</li>
+                <li>Admin Login</li>
+            </ul>
+        </div>
+        <h1 class="title">Halifax Canoe and Kayak</h1>
+        <div><img src="images/paddle-white.png" alt="paddle icon" height="30px" width="30px"></div>
+
+    </nav>
+
+<script>
+    $(document).ready(function(){
+        $("#clickme").click(function(){
+            $(".navlist") .slideToggle();
+        });
+    });
+</script>
+
+<main>
+
+    <div class ="container">
+        <h2>Come Experience Canada</h2>
+    </div>
+
+    <h3>Upcoming Adventures</h3>
+        <hr>
+
+    <section class="content">
+        <h4> Halifax</h4>
+
+        <p> Date: August 14 2023
+            <br>
+        Duration: 4 days</p>
+
+    <h5>Summary</h5>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta, diam eget gravida eleifend, sem nisi vehicula mauris, 
+        vel commodo diam est in lorem. Nulla facilisi. Maecenas in erat id nisi laoreet porta. Morbi convallis lacus id erat porttitor 
+        euismod. Nunc non massa mi. In nec sapien finibus, maximus nibh vitae, tincidunt quam. Donec sed odio nulla. Etiam vehicula finibus luctus.</p>
+
+    <h4>Sydney</h4>
+
+        <p>Date: September 20, 2023
+            <br>
+        Duration: 3 days
+        </p>
+
+<h5>Summary</h5>
+
+    <p>Aliquam id nisi nisl. Proin pulvinar fermentum ex, a mollis ex egestas eget. Fusce vel pulvinar urna. 
+        Duis leo ipsum, feugiat vel nisl non, fringilla blandit elit. In sit amet molestie metus, tristique vehicula nisi. 
+        Morbi elementum iaculis diam, quis convallis nisl congue a. Pellentesque egestas massa vel mollis dignissim. Quisque lacinia vulputate tortor id condimentum. 
+        Ut sodales rutrum nisl sed luctus. Donec elementum maximus erat at sollicitudin. Maecenas tincidunt fringilla posuere. Sed odio justo, hendrerit at elementum sed,
+         pharetra sit amet lorem.
+    </p>
+
+    </section>
+
+</main>
+
+</body>
+
+<footer></footer>
+</html>
